@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <title>로그인예제</title>
+    <style>
+        .panel {
+            margin: 20px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="padding-top: 100px;">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="collapsed navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">
+                        Bootstrap 강의
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="nav_menu">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">HTML</a>
+                        </li>
+                        <li>
+                            <a href="#">CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">JavaScript</a>
+                        </li>
+                        <li>
+                            <a href="#">React</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- 로그인  -->
+        <div class="panel panel-default" style="margin-top: 20px;">
+            <div class="panel-heading">
+                로그인
+            </div>
+            <div class="panel-body">
+                <!-- inside of the panel -->
+                <!-- ID & password START-->
+                <div>
+                    <div>
+                        <input type="text" class="form-control" id="userid" placeholder="ID">
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <input type="password" class="form-control" id="userpwd" placeholder="비밀번호">
+                    </div>
+                    <!-- ID & password END -->
+                </div>
+
+                <!-- BUTTON START -->
+
+                <p><button class="btn btn-success btn-lg btn-block" style="margin-top: 20px;">로그인</button></p>
+                <p><button class="btn btn-primary btn-lg btn-block">f 페이스북 로그인</button></p>
+
+                <!-- BUTTON END -->
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
